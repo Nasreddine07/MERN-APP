@@ -1,0 +1,24 @@
+.about_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+  }
+  
+ @media screen and (max-width: 768px) {
+    .about_container {
+      height: auto;
+    }
+  }
+  
+ .CardActionArea {
+    height: 100%;
+  }
+  
+.CardMedia {
+    object-fit: cover;
+  }
+  
+  .CardContent {
+    padding: 2rem;
+  }
